@@ -1,0 +1,264 @@
+
+body {
+	background: url(http://img.istayreal.com/images/themes/2016xmas/xmasbg.png) left top repeat-x;
+}
+.headBanner {
+	position: relative;
+	z-index: 1;
+}
+
+.leanbear1 {
+	width: 179px;
+	height: 187px;
+	background: url(http://img.istayreal.com/images/themes/2016xmas/leanbear1.png) no-repeat;
+  	/*animation-delay: 0s;
+	animation-duration: 8s;
+	animation-name: leanbear1-am;*/
+  	position: absolute;
+  	left: -25px;
+  	top: 50px;
+  	z-index: -1;
+  	transform: rotate(-22deg);
+    -webkit-transition: 0.15s linear;
+    -moz-transition: 0.15s linear;
+    -ms-transition: 0.15s linear;
+    -o-transition: 0.15s linear;
+    transition: 0.15s linear;
+}
+
+.leanbear2 {
+	width: 127px;
+	height: 123px;
+	background: url(http://img.istayreal.com/images/themes/2016xmas/leanbear2.png) no-repeat;
+  	/*animation-delay: 0.5s;
+	animation-duration: 7s;
+	animation-name: leanbear2-am;*/
+  	position: absolute;
+  	left: 800px;
+  	top: 255px;
+  	z-index: -1;
+  	transform: rotate(0deg);
+    -webkit-transition: 0.3s linear;
+    -moz-transition: 0.3s linear;
+    -ms-transition: 0.3s linear;
+    -o-transition: 0.3s linear;
+    transition: 0.3s linear;
+}
+.leanbear2hat {
+	width: 44px;
+	height: 44px;
+	background: url(http://img.istayreal.com/images/themes/2016xmas/leanbear2-hat.png) no-repeat;
+  	/*animation-delay: 0.5s;
+	animation-duration: 7s;
+	animation-name: leanbear2-am;*/
+  	position: absolute;
+  	left: 850px;
+  	top: 280px;
+  	z-index: 1;
+  	transform: rotate(0deg);
+    -webkit-transition: 0.3s linear;
+    -moz-transition: 0.3s linear;
+    -ms-transition: 0.3s linear;
+    -o-transition: 0.3s linear;
+    transition: 0.3s linear;
+    opacity: 0;
+}
+
+
+.headBanner:hover .leanbear1 {
+	left: -110px;
+	top: 20px;
+	transform: rotate(0deg);
+    -webkit-transition: 0.3s linear;
+    -moz-transition: 0.3s linear;
+    -ms-transition: 0.3s linear;
+    -o-transition: 0.3s linear;
+    transition: 0.3s linear;
+}
+.headBanner:hover .leanbear2 {
+	left: 850px;
+	top: 240px;
+	transform: rotate(0deg);
+    -webkit-transition: 0.15s linear;
+    -moz-transition: 0.15s linear;
+    -ms-transition: 0.15s linear;
+    -o-transition: 0.15s linear;
+    transition: 0.15s linear;
+}
+.headBanner:hover .leanbear2hat {
+	animation-name: leanbear2hat-am;
+	animation-duration: 3.5s;
+    -webkit-transition: 0.15s linear;
+    -moz-transition: 0.15s linear;
+    -ms-transition: 0.15s linear;
+    -o-transition: 0.15s linear;
+    transition: 0.15s linear;
+}
+@keyframes leanbear2hat-am {
+	0% {
+	  	left: 850px;
+	  	top: 280px;
+	  	opacity: 0;
+	}
+	10% {
+	  	left: 930px;
+	  	top: 250px;
+	  	opacity: 1;
+  		transform: rotate(0deg) scale(1);
+	}
+	50% {
+	  	opacity: 1;
+	}
+	60% {
+	  	opacity: 0;
+  		transform: rotate(200deg) scale(1);
+	}
+	100% {
+	  	left: 940px;
+	  	top: 900px;
+	  	opacity: 0;
+  		transform: rotate(200deg) scale(1);
+	}
+}
+
+
+.leanbear3 {
+	width: 55px;
+	height: 50px;
+	background: url(http://img.istayreal.com/images/themes/2016xmas/leanbear3.png) no-repeat;
+	position: absolute;
+	right: -10px;
+	bottom: -56px;
+	z-index: 1;
+	-webkit-transition: 0.2s linear;
+	-moz-transition: 0.2s linear;
+	-ms-transition: 0.2s linear;
+	-o-transition: 0.2s linear;
+	transition: 0.2s linear;
+}
+.products li a .pic {
+	position: relative;
+}
+.products li a:hover .pic .leanbear3 {
+	bottom: 0px;
+	-webkit-transition: 0.2s linear;
+	-moz-transition: 0.2s linear;
+	-ms-transition: 0.2s linear;
+	-o-transition: 0.2s linear;
+	transition: 0.2s linear;
+}
+
+
+.footer-snow {
+	width: 100%;
+	height: 28px;
+	background: url(http://img.istayreal.com/images/themes/2016xmas/footer-snow.png) repeat-x top center;
+	position: fixed;
+	left: 0px;
+	bottom: 0px;
+	z-index: 11111111111;
+}
+.footer-snow1 {
+	position: relative;
+	left: 50%;
+	bottom: 0px;
+}
+.footer-snow2 {
+	width: 1000px;
+	position: absolute;
+	left: -500px;
+	bottom: 0px;
+}
+.footer-tree1, .footer-tree2, .footer-elk {
+	background-image: url(http://img.istayreal.com/images/themes/2016xmas/footer-tree.png);
+	background-position: no-repeat;
+	position: absolute;
+
+}
+.footer-tree1 {
+	width: 29px;
+	height: 49px;
+	background-position: 0 0;
+}
+.footer-tree2 {
+	width: 23px;
+	height: 36px;
+	background-position: -29px 0;
+}
+.footer-elk {
+	width: 33px;
+	height: 44px;
+	background-position: -52px 0;
+}
+
+
+/*
+@keyframes leanbear1-am {
+	0% {
+		left: 75px;
+  		top: 30px;
+	}
+	9% {
+		left: -10px;
+  		top: 0px;
+  		transform: rotate(0deg);
+	}
+	86% {
+		left: -10px;
+  		top: 0px;
+  		transform: rotate(0deg);
+	}
+	100% {
+		left: 75px;
+  		top: 30px;
+  		transform: rotate(-22deg);
+	}
+}
+
+@keyframes leanbear2-am {
+	0% {
+		left: 900px;
+  		top: 255px;
+	}
+	16% {
+		left: 950px;
+  		top: 240px;
+  		transform: rotate(0deg);
+	}
+	94% {
+		left: 950px;
+  		top: 240px;
+  		transform: rotate(0deg);
+	}
+	100% {
+		left: 900px;
+  		top: 255px;
+  		transform: rotate(0deg);
+	}
+}
+*/
+
+
+
+
+.sr-fnbar {
+	background: rgba(0,0,0,0.84);
+
+}
+#column_content .header li:hover, #column_content .header li[this], #column_content .header li.this {
+	background: url(http://img.istayreal.com/images/themes/2016xmas/nav-bg-2016xmas.png) center bottom no-repeat !important;
+}
+.news h2.title, .products h2.title, #productsDetail h2.title, #aboutStayReal h2.title, #styleList h2.title, #styleIntro h2.title, #designerList h2.title, #designer h2.title, #artsList h2.title, #arts h2.title, #history h2.title, #mediaList h2.title, #mediaIntro h2.title, #storeDealer .header .title, .news .articleContent .relatedBuy h4.title, #comment h2.title {
+	background-image: url(http://img.istayreal.com/images/themes/2016xmas/hgroup-h2title-tw-2016xmas.png) !important;
+	color: #a00 !important;
+}
+.header.title, .news .header, .products .header, .store .header, .support .header, #productsDetail .header, #aboutStayReal .header, #styleList .header, #styleIntro .header, #designerList .header, #designer .header, #artsList .header, #arts .header, #history .header, #mediaList .header, #mediaIntro .header, #comment .header, #noticesList .header {
+	border-color: #a00 !important;
+	color: #a00 !important;
+}
+#column_footer {
+	border-color: #a00 !important;
+}
+#column_footer, #column_footer a {
+	color: #a00 !important;
+}
